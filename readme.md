@@ -10,3 +10,7 @@ Bugs : Sutherland-Hodgeman clipping should be added to support "rendering vertic
 Objects behind camera can still exist
 Fixed thing for camera angles
 Still crashes sometimes...
+
+## 22 of May, 2023 :
+Added line clipping, so only portions of lines which are in the screen are processed, fixed the crash problem with this
+%1
