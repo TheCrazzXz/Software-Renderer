@@ -11,6 +11,6 @@ Objects behind camera can still exist
 Fixed thing for camera angles
 Still crashes sometimes...
 
-## 22 of May, 2023 : V2 + 10
+## 22 of May, 2023 : V2 + (10 at the power -1)
 Added line clipping, so only portions of lines which are in the screen are processed, fixed the crash problem with this
 %1
