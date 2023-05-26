@@ -14,3 +14,17 @@ Still crashes sometimes...
 ## 22 of May, 2023 : V2 + (10 at the power -1)
 Added line clipping, so only portions of lines which are in the screen are processed, fixed the crash problem with this
 %1
+
+## 26 of May, 2023 : V2.5 (this is a software renderer without opengl nor directx or vulkan, [JOKE MODE ON] it's poser sh*t [JOKE MODE OFF]
+- Added line clipping in window.
+- Added support for rendering data with shaders.
+- Fixed graphical problems / crashing problems (a lot).
+- Now support for filling triangles ! (this was the hardest thing to implement lmao).
+Use shSetWireframeMode(true) before rendering anything to enable wireframe (not filling triangles).
+
+In engine (nothing to do with graphical library, i've created it just to test) :
+- Entities are added, so instances of objects.
+You can set objects position, rotation, scale, and two colors
+Colors will be interpolated...
+But : Note that for now if you don't use uniform colors, so different entity.start_color and entity.end_color,
+The program might slow, mostly if you get closer to objects.
