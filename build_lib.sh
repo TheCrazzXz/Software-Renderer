@@ -1,1 +1,0 @@
-gcc maths/*.h memory/*.h sh/*h -c -lm
