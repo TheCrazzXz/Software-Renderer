@@ -33,6 +33,6 @@ The program might slow, mostly if you get closer to objects.
 
 - Finished with clipping problems
 - Now really supports triangle filling, optimized by using memset to draw horizontal lines
-- Improved interpolation (this example doesn't use it)
+- Improved interpolation
 
 You can now draw objects anywhere on the space and fill them, it should work
