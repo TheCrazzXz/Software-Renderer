@@ -1,0 +1,4 @@
+USER :
+VERTEX NDC in clip space -> PERSPECTIVE DIVISION -> ... -> NDC to SCREEN SPACE -> draw
+
+NDC : Normalized device coordinates : window unit is 1
