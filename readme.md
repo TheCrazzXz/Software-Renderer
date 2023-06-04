@@ -28,3 +28,11 @@ You can set objects position, rotation, scale, and two colors
 Colors will be interpolated...
 But : Note that for now if you don't use uniform colors, so different entity.start_color and entity.end_color,
 The program might slow, mostly if you get closer to objects.
+
+## 5th of June V2.6 : A lot of updates and optimization
+
+- Finished with clipping problems
+- Now really supports triangle filling, optimized by using memset to draw horizontal lines
+- Improved interpolation (this example doesn't use it)
+
+You can now draw objects anywhere on the space and fill them, it should work
